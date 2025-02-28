@@ -1,6 +1,7 @@
 *{
     margin: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 header {
@@ -99,21 +100,128 @@ header img {
     display: block;
     justify-content: center;
     text-align: center;
-    padding: 1em 7em;
+    padding: 2em 7em 4em;
+}
+
+.McBrasil p {
+    padding: 0 8em;
+
 }
 
 .McBrasil img {
     width: 300px;
-    padding: 3em 0 1em;
+    padding: 5em 0 3em;
 }
 
+.tituloMcDonalds {
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+
+}
 .McApp {
     display: flex;
     justify-content: center;
-    padding: 2em;
+    padding: 5em;
 }
 
-.McApp img{
+.McApp img {
+    width: 630px;
+    border-radius: 10px;
+}
+
+.ilustrativo{
     width: 600px;
     border-radius: 10px;
+}
+
+.help {
+    display: block;
+    text-align: start;
+    justify-content: space-between;
+    padding-left: 1em;
+}
+
+.help h4 {
+    font-size: 25px;
+    padding-bottom: 1em;
+}
+
+.help details {
+    display: block;
+    justify-content: space-between;
+    padding: 1em 0;
+    font-size: 16px;
+    align-items: center;
+}
+
+.help details summary {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 1em 0;
+}
+
+.help details summary:hover {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.help details summary img {
+    width: 20px;
+}
+
+.help details p{
+    padding: 3em 2em 1em 0;
+    font-size: 14px;
+}
+
+.perguntas {
+    padding: 10em 1em;
+}
+
+.perguntas img {
+    width: 80px;
+    padding-bottom: 1.5em;
+}
+
+.perguntas details summary img {
+    width: 20px;
+}
+
+details a {
+    display: block;
+    color: black;
+    padding: 0.5em 0;
+}
+.mac {
+    width: 50px;
+    padding: 5em 0 1em;
+}
+.icones {
+    display: flex;
+    justify-content: start;
+    padding: 0 0 1em;
+}
+
+.icones img{
+    width: 25px;
+    padding: 0.4em;
+}
+footer {
+    display: block;
+    text-align: start;
+    padding-bottom: 2em;
+}
+
+footer a {
+    display: block;
+    margin-top: 2em;
+    padding-left: 1em;
+    color: #000000;
+    font-size: 15px;
+}
+.linha {
+    border-bottom: 2px solid #151449b7;
+    width: 100%;
 }
