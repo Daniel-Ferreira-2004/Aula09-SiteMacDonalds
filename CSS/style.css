@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    list-style: none;
+}
+
+header {
+    padding: 0.2em;
+    background-image: url(../IMG/FundoCabecalho.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1em 1em 4em;
+}
+
+header img {
+    width: 45px;
+}
+
+.entrar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.entrar button {
+    padding: 1em;
+    border-radius: 10px;
+    width: 15em;
+    font-size: 10px;
+    background-color: #ffc836;
+}
+
+.pedido {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 1em;
+}
+
+.pedido h2 {
+    padding: 1em;
+}
+
+.botaoInicio {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.pedido button {
+    padding: 0.8em;
+    width: 12em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+    background-color: #ffc836;
+}
+
+.pedido button img{
+    width: 20px;
+    padding-right: 1em;
+}
+
+.cardapio {
+    display: block;
+}
+.divCardapio {
+    display: flex;
+    justify-content: start;
+    padding-top: 1em;
+}
+
+.divCardapio ul {
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+}
+
+.divCardapio ul li img {
+    width: 50px;
+    padding-left: 10px;
+}
+
+.imagemDeFundo {
+    display: flex;
+    justify-content: end;
+    padding: 5em 0 3em;
+}
+
+.imagemDeFundo img {
+    width: 650px;
+}
+
+.McBrasil {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 1em 7em;
+}
+
+.McBrasil img {
+    width: 300px;
+    padding: 3em 0 1em;
+}
+
+.McApp {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.McApp img{
+    width: 600px;
+    border-radius: 10px;
+}
