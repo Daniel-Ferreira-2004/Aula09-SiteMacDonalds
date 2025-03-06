@@ -7,9 +7,12 @@
 header {
     padding: 0.2em;
     background-image: url(../IMG/FundoCabecalho.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 400px;
+    position: relative;
     padding: 1em 1em 4em;
 }
 
