@@ -70,6 +70,7 @@ header img {
 .cardapio {
     display: block;
 }
+
 .divCardapio {
     display: flex;
     justify-content: start;
@@ -197,10 +198,12 @@ details a {
     color: black;
     padding: 0.5em 0;
 }
+
 .mac {
     width: 50px;
     padding: 5em 0 1em;
 }
+
 .icones {
     display: flex;
     justify-content: start;
